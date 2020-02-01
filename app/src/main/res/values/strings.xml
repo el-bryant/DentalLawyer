@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">DentalLawyer</string>
+    <string name="app_inicio">Inicio</string>
+    <string name="app_consulta">Consulta</string>
+    <string name="app_resultado">Resultado de consulta</string>
+    <string name="app_rol">Rol de programación médica</string>
+    <string name="app_herramientas">Herramientas</string>
+    <string name="app_logout">Cerrar sesión</string>
+    <string name="app_about">Acerca de</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="inicio">Este es el INICIO</string>
+    <string name="consulta">Estas son las CONSULTAS MÉDICAS</string>
+    <string name="resultado">Este es el RESULTADO DE LA ÚLTIMA CONSULTA</string>
+    <string name="rol">Este es el ROL DE PROGRAMACIÓN MÉDICA</string>
+    <string name="about">Desarrollado por BRYANT Y. VALENZUELA</string>
+
+    <string name="r_e_m_s_a_c">Ríe Más S. A. C.</string>
+    <string name="vdc">Clínica Dental Vital Dent Cix</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="acceder">Acceder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_consulta1">Consulta1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="buscar">Este es el fragmento de BÚSQUEDA DE PACIENTES</string>
+    <string name="historia">Este es el fragmento de HISTORIAS CLÍNICAS</string>
+    <string name="odontograma">Este es el fragmento de ODONTOGRAMA</string>
+
+    <string name="dni">Ingrese DNI para buscar</string>
+    <string name="apellido_paterno">Apellido paterno</string>
+    <string name="apellido_materno">Apellido materno</string>
+    <string name="nombres">Nombres</string>
+    <string name="quest">Buscar</string>
+    <string name="edad">Edad en años</string>
+
+    <string name="show_odontograma">Mostrar odontograma</string>
+</resources>

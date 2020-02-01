@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nomenclatura" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p01" />
+
+                <Switch
+                    android:id="@+id/swp01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con curación o restauración"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p02" />
+
+                <Switch
+                    android:id="@+id/swp02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con caries que necesita restauración"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p03" />
+
+                <Switch
+                    android:id="@+id/swp03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente extraído"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p04" />
+
+                <Switch
+                    android:id="@+id/swp04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente por extraer"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p05" />
+
+                <Switch
+                    android:id="@+id/swp05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente ausente"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p06" />
+
+                <Switch
+                    android:id="@+id/swp06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con endodoncia"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p07" />
+
+                <Switch
+                    android:id="@+id/swp07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita endodoncia"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p08" />
+
+                <Switch
+                    android:id="@+id/swp08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con espigo muñón"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p09" />
+
+                <Switch
+                    android:id="@+id/swp09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita espigo muñón"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p10" />
+
+                <Switch
+                    android:id="@+id/swp10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con corona"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p11" />
+
+                <Switch
+                    android:id="@+id/swp11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita una corona"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p12" />
+
+                <Switch
+                    android:id="@+id/swp12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente que realizó una profilaxis (encías sanas)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p13" />
+
+                <Switch
+                    android:id="@+id/swp13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente necesita profilaxis (encías sangrantes)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p14" />
+
+                <Switch
+                    android:id="@+id/swp14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente presenta prótesis fija (puente)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p15" />
+
+                <Switch
+                    android:id="@+id/swp15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente necesita prótesis fija (puente)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p16" />
+
+                <Switch
+                    android:id="@+id/swp16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Erosiones restauradas"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p17" />
+
+                <Switch
+                    android:id="@+id/swp17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Erosiones"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p18" />
+
+                <Switch
+                    android:id="@+id/swp18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente presenta prótesis total"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p19" />
+
+                <Switch
+                    android:id="@+id/swp19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ausencia total de dientes (prótesis total)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p20" />
+
+                <Switch
+                    android:id="@+id/swp20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente con prótesis parcial removible (PPR) superior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p21" />
+
+                <Switch
+                    android:id="@+id/swp21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente necesita prótesis parcial removible (PPR) superior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p22" />
+
+                <Switch
+                    android:id="@+id/swp22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente con PPR inferior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p23" />
+
+                <Switch
+                    android:id="@+id/swp23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente necesita PPR inferior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p24" />
+
+                <Switch
+                    android:id="@+id/swp24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Demandante radicular"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p25" />
+
+                <Switch
+                    android:id="@+id/swp25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita una radiografía periapical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p26" />
+
+                <Switch
+                    android:id="@+id/swp26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Se indica al paciente radiografía panorámica"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p27" />
+
+                <Switch
+                    android:id="@+id/swp27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con carilla"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p28" />
+
+                <Switch
+                    android:id="@+id/swp28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita una carilla"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p29" />
+
+                <Switch
+                    android:id="@+id/swp29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con incrustación"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p30" />
+
+                <Switch
+                    android:id="@+id/swp30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita una incrustación"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p31" />
+
+                <Switch
+                    android:id="@+id/swp31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con restauración filtrada"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p32" />
+
+                <Switch
+                    android:id="@+id/swp32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fractura"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p33" />
+
+                <Switch
+                    android:id="@+id/swp33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente con bracket (ortodoncia fija)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p34" />
+
+                <Switch
+                    android:id="@+id/swp34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente con ortopedia (ortodoncia removible)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p35" />
+
+                <Switch
+                    android:id="@+id/swp35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente necesita ortodoncia fija (brackets)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p36" />
+
+                <Switch
+                    android:id="@+id/swp36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paciente necesita apanatología removible (ortopedia)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p37" />
+
+                <Switch
+                    android:id="@+id/swp37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con endodoncia en molar superior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p38" />
+
+                <Switch
+                    android:id="@+id/swp38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita endodoncia en mlar superior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p39" />
+
+                <Switch
+                    android:id="@+id/swp39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente con endodoncia en molar inferior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/p40" />
+
+                <Switch
+                    android:id="@+id/swp40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diente necesita endodoncia en molar inferior"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</TableLayout>

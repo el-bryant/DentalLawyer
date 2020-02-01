@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/inicio"
+            android:title="@string/app_inicio" />
+        <item
+            android:id="@+id/consulta"
+            android:icon="@drawable/consulta"
+            android:title="@string/app_consulta" />
+        <item
+            android:id="@+id/resultado"
+            android:icon="@drawable/resultado"
+            android:title="@string/app_resultado" />
+        <item
+            android:id="@+id/rol"
+            android:icon="@drawable/rol"
+            android:title="@string/app_rol" />
+
+    </group>
+
+    <item android:title="@string/app_herramientas">
+
+        <menu>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="@string/app_logout" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ayuda"
+                android:title="@string/app_about" />
+        </menu>
+    </item>
+</menu>

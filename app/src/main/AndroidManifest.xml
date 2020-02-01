@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vitaldentcix.dentallawyer.dentallawyer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".LoginActivity"
+            android:label="Dental Lawyer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Dental Lawyer" />
+        <activity
+            android:name=".Consulta"
+            android:label="Consulta" />
+        <activity
+            android:name=".Resultado"
+            android:label="Resultado" />
+        <activity
+            android:name=".Rol"
+            android:configChanges="screenSize|orientation"
+            android:label="Rol"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Cuadrante1"
+            android:label="Odontograma" />
+        <activity
+            android:name=".Cuadrante2"
+            android:label="Odontograma" />
+        <activity
+            android:name=".Cuadrante3"
+            android:label="Odontograma" />
+        <activity
+            android:name=".Cuadrante4"
+            android:label="Odontograma" />
+        <activity
+            android:name=".Nomenclatura"
+            android:label="Nomenclatura"/>
+        <activity
+            android:name=".Tratamiento"
+            android:label="Tratamiento"/>
+    </application>
+
+</manifest>

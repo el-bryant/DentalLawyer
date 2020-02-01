@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consulta">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="?attr/actionBarSize">
+
+                <Button
+                    android:id="@+id/imbC1"
+                    android:layout_width="180dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerInside"
+                    android:text="Cuadrante I"
+                    android:onClick="Cuad1" />
+
+                <Button
+                    android:id="@+id/imbC2"
+                    android:layout_width="180dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerInside"
+                    android:text="Cuadrante II"
+                    android:onClick="Cuad2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/imbC3"
+                    android:layout_width="180dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerInside"
+                    android:text="Cuadrante III"
+                    android:onClick="Cuad3"/>
+
+                <Button
+                    android:id="@+id/imbC4"
+                    android:layout_width="180dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerInside"
+                    android:text="Cuadrante IV"
+                    android:onClick="Cuad4"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </TableLayout>
+
+</TableLayout>

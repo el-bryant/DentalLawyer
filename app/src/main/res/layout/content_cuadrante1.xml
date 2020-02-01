@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuadrante1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imba18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a18" />
+
+            <ImageButton
+                android:id="@+id/imba17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a17" />
+
+            <ImageButton
+                android:id="@+id/imba16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a16" />
+
+            <ImageButton
+                android:id="@+id/imba15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a15" />
+
+            <ImageButton
+                android:id="@+id/imba14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a14" />
+
+            <ImageButton
+                android:id="@+id/imba13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a13" />
+
+            <ImageButton
+                android:id="@+id/imba12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a12" />
+
+            <ImageButton
+                android:id="@+id/imba11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/a11" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imbb18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b18" />
+
+            <ImageButton
+                android:id="@+id/imbb17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b17" />
+
+            <ImageButton
+                android:id="@+id/imbb16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b16" />
+
+            <ImageButton
+                android:id="@+id/imbb15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b15" />
+
+            <ImageButton
+                android:id="@+id/imbb14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b14" />
+
+            <ImageButton
+                android:id="@+id/imbb13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b13" />
+
+            <ImageButton
+                android:id="@+id/imbb12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b12" />
+
+            <ImageButton
+                android:id="@+id/imbb11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/b11" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imbc18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c18" />
+
+            <ImageButton
+                android:id="@+id/imbc17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c17" />
+
+            <ImageButton
+                android:id="@+id/imbc16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c16" />
+
+            <ImageButton
+                android:id="@+id/imbc15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c15" />
+
+            <ImageButton
+                android:id="@+id/imbc14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c14" />
+
+            <ImageButton
+                android:id="@+id/imbc13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c13" />
+
+            <ImageButton
+                android:id="@+id/imbc12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c12" />
+
+            <ImageButton
+                android:id="@+id/imbc11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="onProblemas"
+                android:scaleType="centerInside"
+                android:src="@mipmap/c11" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onBack"
+                android:text="Volver" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TableLayout>

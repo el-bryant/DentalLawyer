@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nomenclatura" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resina simple"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resina compuesta"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ionomero de vidrio"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carilla directa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carilla indirecta"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incrustaciones"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profilaxis/alizaje"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destartraje"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blanqueamiento férulas"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Barniz fluorado (4 citas)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sellantes"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RX periapical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exodoncia simple"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cirugía de 3ra. molar"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cita control ortodoncia"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Endodoncia anterior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Endodoncia de 1ra. premolar"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Endodoncia premolar"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Endodoncia posterior"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pulpotomía"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gingivectomía"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Espigo muñón"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Corona Veneer"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Corona metal porcelana"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Corona de porcelana libre de metal"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prótesis removible metálica"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prótesis removible acrílica"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prótesis total"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/swt29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ortodoncia"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</TableLayout>
